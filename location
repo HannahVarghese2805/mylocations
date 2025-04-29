@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Locations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 40px;
+            margin: 0;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .locations-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .location {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            width: 300px;
+        }
+
+        .location img {
+            width: 80px;
+            height: 80px;
+        }
+
+        .location a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+
+        .location a:hover {
+            background-color: #45a049;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+            .location {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Locations</h1>
+
+    <div class="locations-container">
+        <div class="location">
+            <h2>Home</h2>
+            <img src="https://img.icons8.com/fluency/96/home.png" alt="Home Icon">
+            <br>
+            <a href="https://maps.app.goo.gl/vipmt4twjYk62f1YA" target="_blank">View Home</a>
+        </div>
+
+        <div class="location">
+            <h2>Church</h2>
+            <img src="https://img.icons8.com/color/96/church.png" alt="Church Icon">
+            <br>
+            <a href="https://maps.app.goo.gl/EMyDex4GhYuHy14s9" target="_blank">View Church</a>
+        </div>
+    </div>
+
+</body>
+</html>
